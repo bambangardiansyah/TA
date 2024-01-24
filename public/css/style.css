@@ -46,7 +46,7 @@ body {
 ::-webkit-scrollbar{
     width: 7px;
     /* color: var(--gold); */
-    /* overflow: var(--gold); */
+    /* overflow: hidden; */
 }
 ::-webkit-scrollbar-thumb {
     background-color: var(--gold);
@@ -71,10 +71,10 @@ a {
 }
 
 navbar-brand logo{
-max-width: 100%;
+max-width: 120%;
 }
 navbar-brand logo img{
-    width: 30em;
+    width: 10em;
 }
 
 a:hover {
@@ -725,7 +725,7 @@ font-size: 60px;
     border-color: var(--gold);
 }
 
-.row.portfolio .col-lg-4 {
+.row.portfolio .col-lg-3 {
     padding-left: 7.5px;
     padding-right: 7.5px;
     
@@ -736,18 +736,64 @@ font-size: 60px;
 
 }
 .single-portfolio {
-    height: 400px;
-    margin-bottom: 15px;
+    height: 350px;
+    /* width: 250px; */
+    margin-bottom: 27.5px;
     background-position: center;
     background-size: cover;
     background-color: #ddd;
-    padding: 15px;
+    padding: 25px;
     position: relative;
+    /* text-align: center; */
     z-index: 1;
     overflow: hidden;
 }
 
-.single-portfolio:after {
+
+/* .single-portfolio h3{
+visibility: hidden;
+color: white;
+margin-bottom: 30px;
+}
+.single-portfolio p{
+color: white;
+visibility: hidden;
+} */
+
+.single-portfolio h3{
+    visibility: hidden;
+    color:white;
+    position: absolute;
+    top: 100%;
+    transition: opacity 0.3s ease, top 0.3s ease;
+    text-align: center;
+}
+
+.single-portfolio p{
+    visibility: hidden;
+    color:#ccc;
+    position: absolute;
+    top: 100%;
+    transition: opacity 0.3s ease, top 0.3s ease;
+}
+
+
+    
+.single-portfolio:hover .ttt
+{
+    visibility: visible ;
+    position: relative;
+    top: 0%;
+}
+.single-portfolio:hover .ppp
+{
+    visibility: visible ;
+    top: 30%;
+}
+
+
+
+.single-portfolio:after{
     position: absolute;
     content: '';
     left: 0;
@@ -756,12 +802,14 @@ font-size: 60px;
     height: 0;
     background-color: #000;
     opacity: .5;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     -webkit-transition: .3s;
     transition: .3s;
     z-index: -1;
+    visibility: visible;
 
 }
+
+
 
 .single-portfolio:hover:after {
     height: 100%;
@@ -843,8 +891,12 @@ font-size: 60px;
 
 #liat{
     color: #000;
-    border-color: #000;
-    height: 43px;
+    border-color: #000000b9;
+    /* height: 43px; */
+    padding: 8px 20px;
+    display: grid;
+    place-items: center;
+    
 }
 #liat:hover{
     /* color: var(--gold); */
@@ -852,7 +904,7 @@ font-size: 60px;
 }
 
 .other{
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -1197,12 +1249,7 @@ span.blog-date,
     border-left: 10px solid var(--second-color);
 }
 
-.blog-content-footer {
-    border-top: 1px solid #aaa;
-    margin-top: 30px;
-    padding-top: 5px;
-    font-size: 15px;
-}
+
 
 ul.share {
     margin: 0;
@@ -1775,18 +1822,3 @@ input:-webkit-autofill {
         Footer Area
 :::::::::::::::::::::::::::::::::::*/
 
-.footer-area {
-    padding: 30px;
-    background-color: #000;
-    border-bottom: 5px solid var(--second-color);
-}
-
-.copyright-text a {
-    color: #eee;
-    -webkit-transition: .3s;
-    transition: .3s;
-}
-
-.copyright-text a:hover {
-    color: var(--second-color);
-}
