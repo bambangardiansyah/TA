@@ -1,3 +1,4 @@
+@extends('layouts.footer')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -259,7 +260,7 @@
         <div class="container">
             <!-- Section Title -->
             <div class="row justify-content-center">
-                <div class="col-lg-6 ">
+                <div class="col-lg-6">
                     <div class="section-title text-center">
                         <h2>Jelajahi Karya</h2>
                         <p>Nikmati hasil karya sesama user</p>
@@ -285,15 +286,19 @@
                 <div class="col-lg-4 col-md-6 mix abstrak rupa">
                     <a href="sblog"></a>
                     <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-1.png)">
+                    <h3 class="ttt">Title</h3>
+                    <p class="ppp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     </div>
                     </a>
                 </div>
                 
                 <!-- // Single Portfolio -->
                 <!-- Single Portfolio -->
-                <div class="col-lg-4 col-md-6 mix logo patung ">
+                <div class="col-lg-4 col-md-6 mix logo abstrak rupa">
                 <a href="sblog">
-                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-2.png)">
+                    <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-10.jpg)">
+                    <h3 class="ttt">Title</h3>
+                    <p class="ppp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     </div>
                 </a>
                 </div>
@@ -302,6 +307,8 @@
                 <div class="col-lg-4 col-md-6 mix patung ">
                 <a href="sblog">
                     <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-3.png)">
+                    <h3 class="ttt">Title</h3>
+                    <p class="ppp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     </div>
                 </a>
                 </div>
@@ -310,6 +317,8 @@
                 <div class="col-lg-4 col-md-6 mix patung ">
                 <a href="sblog">
                     <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-4.png)">
+                    <h3 class="ttt">Title</h3>
+                    <p class="ppp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     </div>
                 </a>
                 </div>
@@ -318,6 +327,8 @@
                 <div class="col-lg-4 col-md-6 mix patung ">
                 <a href="sblog">
                     <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-5.png)">
+                    <h3 class="ttt">Title</h3>
+                    <p class="ppp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     </div>
                 </a>
                 </div>
@@ -326,6 +337,8 @@
                 <div class="col-lg-4 col-md-6 mix patung ">
                 <a href="sblog">
                     <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-6.png)">
+                    <h3 class="ttt">Title</h3>
+                    <p class="ppp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     </div>
                 </a>
                 </div>
@@ -334,6 +347,8 @@
                 <div class="col-lg-4 col-md-6 mix  patung">
                 <a href="sblog">   
                     <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-7.png)">
+                    <h3 class="ttt">Title</h3>
+                    <p class="ppp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     </div>
                 </a>
                 </div>
@@ -342,6 +357,8 @@
                 <div class="col-lg-4 col-md-6 mix patung">
                     <a href="sblog">
                     <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-8.png)">
+                    <h3 class="ttt">Title</h3>
+                    <p class="ppp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     </div>
                     </a>
                 </div>
@@ -350,6 +367,8 @@
                 <div class="col-lg-4 col-md-6 mix patung">
                     <a href="sblog">
                     <div class="single-portfolio" style="background-image: url(assets/images/portfolio/img-9.png)">
+                    <h3 class="ttt">Title</h3>
+                    <p class="ppp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     </div>
                     </a>
                 </div>
@@ -517,7 +536,7 @@
                             <li>Edit Profile</li>
                             <li>Jelajahi tak terbatas</li>
                         </ul>
-                        <a href="#" class="button">Beli Sekarang</a>
+                        <a href="co" class="button">Beli Sekarang</a>
                     </div>
                 </div>
                 <!-- // Single Price Box -->
@@ -581,7 +600,7 @@
 
 
     <!-- ====== Footer Area ====== -->
-    <footer class="footer-area">
+    <!-- <footer class="footer-area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -591,7 +610,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <!-- ====== // Footer Area ====== -->
 
 

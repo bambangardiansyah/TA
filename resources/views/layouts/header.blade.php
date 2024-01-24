@@ -1,10 +1,15 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-GLhlTQ8iK9tWQFvMz/3RnIwmeUUKJZZESt6nquI5qf61OpGA8l5+5S/SFIIJdA2z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="...">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-ezJrMeu1cOQQwkg6usjUuKsFVmGLTskZEv0Xa/WxIDWN5L4VNTIekP6aWIasN10t" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body data-spy="scroll" data-target=".navbar-nav">
     <!-- ====== Header ====== -->
@@ -24,11 +29,11 @@
 
                 <div class="collapse navbar-collapse main-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a class="nav-link" href="#home">BERANDA</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">JELAJAHI</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">TENTANG KAMI</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#pricing">PREMIUM</a></li>
-                        <li class="nav-item"><a class="nav-link pr0" href="#contact">KONTAK</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="/">BERANDA</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/#portfolio">JELAJAHI</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/#team">TENTANG KAMI</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/#pricing">PREMIUM</a></li>
+                        <li class="nav-item"><a class="nav-link pr0" href="/#contact">KONTAK</a></li>
                         <li class="nav-item"><a class="nav-link pr0" href="login">MASUK</a></li>
                     </ul>
                 </div>
