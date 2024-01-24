@@ -1,0 +1,84 @@
+:root{
+    --gold:#D7B714;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.garis{
+    height: 170px;
+    width: 1.5px;
+    color: white;
+    background-color: #fff;
+    margin: 0;
+}
+
+/* footer .logo {
+    width: 220px; 
+    height: auto;
+    margin-left: 100px;
+} */    
+
+    .descriptions {
+        display: flex;
+        gap: 155px;
+        margin: 20px;
+    }
+
+.descriptions div {
+    max-width: 200px; /* Sesuaikan lebar maksimal deskripsi */
+    /* margin-right: 50px; */
+}
+
+.fc{
+    text-decoration: none;
+}
+
+.fc h4 {
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: var(--gold); /* Warna kuning, sesuaikan sesuai kebutuhan */
+}
+
+.descriptions p {
+    font-size: 10px;
+    margin: 0;
+    color: #ccc; /* Warna abu-abu, sesuaikan sesuai kebutuhan */
+}
+
+.fc li{
+    font-size: 10px;
+    line-height: 24px;
+    list-style: none;
+    color: #ccc;
+}
+
+.fc li a{
+color: #ccc;
+}
+
+.fc li a:hover{
+    color: var(--gold) ;
+}
+
+.artdex h1{
+    /* position: relative;
+    right: 40px; */
+    font-size: 100px;
+    display: flex;
+    font-weight: bolder;
+    color: white;
+    /* margin-right: 70px; */
+    margin-left: 33px;
+    /* font-family: ; */
+}
+
+.fc li i{
+    margin-right: 10px;
+}
